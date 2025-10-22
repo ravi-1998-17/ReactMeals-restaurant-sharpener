@@ -1,0 +1,37 @@
+.mealsSummary {
+  padding: 2rem;
+  width: 85%;
+  max-width: 55rem;
+  margin: -7.5rem auto 1rem;
+  position: relative;
+  border-radius: 14px;
+  background-color: var(--pop-red);
+  color: var(--card-comp);
+  text-align: center;
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.25);
+}
+
+.mealsSummary h2 {
+  font-family: var(--logo-font);
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mealsSummary p {
+  font-style: italic;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 720px) {
+  .mealsSummary {
+    margin: -10.5rem auto 1rem;
+  }
+
+  .mealsSummary p {
+    font-size: 1rem;
+  }
+}
