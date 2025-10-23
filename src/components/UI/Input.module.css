@@ -1,0 +1,19 @@
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.input input {
+  width: 3rem;
+  height: 1.75rem;
+  border-radius: 5px;
+  border: 2px solid var(--header-bg);
+  padding-left: 0.5rem;
+}

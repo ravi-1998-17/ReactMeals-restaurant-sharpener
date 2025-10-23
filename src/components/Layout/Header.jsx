@@ -1,7 +1,7 @@
 import React from "react";
-import HeaderCartBtn from "../Cart/HeaderCartBtn";
 import headerBG from "@/assets/headerBG.jpg";
 import classes from "@/components/Layout/Header.module.css";
+import HeaderCartBtn from "./HeaderCartBtn";
 
 const Header = () => {
   return (

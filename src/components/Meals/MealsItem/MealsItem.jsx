@@ -1,7 +1,14 @@
 import React from "react";
-import classes from '@/components/Meals/MealsItem/MealsItem.module.css'
+import classes from "@/components/Meals/MealsItem/MealsItem.module.css";
+import MealItemForm from "./MealItemForm";
 
 const MealsItem = ({ id, name, description, price }, key) => {
+
+  const addToCartHandler = () => {
+
+  }
+
+
   return (
     <li className={classes.meal}>
       <div>
@@ -9,7 +16,10 @@ const MealsItem = ({ id, name, description, price }, key) => {
         <p className={classes.description}>{description}</p>
         <p className={classes.price}>₹{price}/-</p>
       </div>
-      
+
+      <div>
+        <MealItemForm />
+      </div>
     </li>
   );
 };
